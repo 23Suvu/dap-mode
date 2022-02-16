@@ -474,7 +474,6 @@ Core Attach (Console)" from `dap-debug` menu.
 1.  Installation
 
 	- Automatic Installation:
-
 		- Add the following to your emacs configuration file:
 		```elisp
 		(require 'dap-unity)
@@ -489,11 +488,11 @@ Core Attach (Console)" from `dap-debug` menu.
 		- Download the [Visual Studio Marketplace : Debugger for Unity](https://marketplace.visualstudio.com/items?itemName=Unity.unity-debug) extension
 		
 		- Extract the contents (Default path: "{emacsconfigdir}/.extension/vscode/Unity.unity-debug/")
-			(Tip: the package is just a "zip" archive with a .vsix extension)
+			- (Tip: the package is just a "zip" archive with a .vsix extension)
 		
 		- On non-Windows systems, the debugger "{extensiondir}/extension/bin/UnityDebug.exe" must be flagged as executable
-			Using your favorite terminal: `chmod u+x UnityDebug.exe`
+			- Using your favorite terminal: `chmod u+x UnityDebug.exe`
 		
 2.  Usage
 
-	Call `dap-debug` and select the "Unity Editor" template
+	- Call `dap-debug` and select the "Unity Editor" template
